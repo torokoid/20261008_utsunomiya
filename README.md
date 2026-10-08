@@ -161,6 +161,14 @@ p.note { display: none; }
   opacity: 1;
 }
 
+window.addEventListener('load', function() {
+  const splash = document.querySelector('#splash');
+  
+  // 0.5秒（500ミリ秒）ほど待ってからフェードアウトを開始する
+  setTimeout(function() {
+    splash.classList.add('loaded');
+  }, 500);
+});
 
 
 </style>
@@ -506,14 +514,6 @@ https://youtube.com/shorts/1MxKGMEFFR4?feature=share<br>
 
 
 
-window.addEventListener('load', function() {
-  const splash = document.querySelector('#splash');
-  
-  // 0.5秒（500ミリ秒）ほど待ってからフェードアウトを開始する
-  setTimeout(function() {
-    splash.classList.add('loaded');
-  }, 500);
-});
 
 
 
