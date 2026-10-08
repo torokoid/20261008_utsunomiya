@@ -293,7 +293,7 @@ p.note { display: none; }
 
 
 <h2><span class="yellow">スーパー銭湯「ゆ」までの移動経路はこんな感じ</span></h2>
-<a href="20261008_00001.png" target="_blank"><img src="20261008_00001.png" alt="サンプル画像" class="responsive-media"></a>
+<a href="20261008.00001.png" target="_blank"><img src="20261008.00001.png" alt="サンプル画像" class="responsive-media"></a>
 
 
 <h2><span class="yellow">移動中の走行動画</span></h2>
