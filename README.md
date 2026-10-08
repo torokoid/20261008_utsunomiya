@@ -181,7 +181,7 @@ p.note { display: none; }
 <!-- メインコンテンツ -->
 <div id="container">
   <h1>メインのホームページ画像</h1>
-  <p>https://torokoid.github.io/20261008_utsunomiya/20261008_00022.jpeg</p>
+  <p><a href="20261008_00026.jpeg" target="_blank"><img src="20261008_00026.jpeg" alt="サンプル画像" class="responsive-media"></a></p>
 </div>
 
 
