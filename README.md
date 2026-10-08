@@ -270,7 +270,7 @@ p.note { display: none; }
 
 
 
-<h2><span class="yellow">JAしおのや、道の駅、うわだいらパーキングまでの移動経路はこんな感じ</span></h2>
+<h2><span class="yellow">スーパー銭湯「ゆ」までの移動経路はこんな感じ</span></h2>
 <a href="20261008_00001.png" target="_blank"><img src="20261008_00001.png" alt="サンプル画像" class="responsive-media"></a>
 
 
