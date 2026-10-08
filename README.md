@@ -185,17 +185,18 @@ p.note { display: none; }
 
 
 
-/* --- スクロールで浮き出るアニメーションの定義 --- */
+/* --- スクロールでズームインしながら浮き出るアニメーション --- */
 .scroll-fade {
   opacity: 0;
-  transform: translateY(30px); /* 最初は下30pxの位置に配置 */
-  transition: opacity 1s ease, transform 1s ease; /* 1秒かけてふんわり浮き出る */
+  transform: translateY(40px) scale(0.95); /* 最初は少し下にいて、サイズも少し縮小（0.95倍）しておく */
+  transition: opacity 1.2s cubic-bezier(0.16, 1, 0.3, 1), transform 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
 }
 
-/* 画面内に入ったときに付与されるクラス（元の位置・透明度に戻る） */
+/* 画面内に入ったときに、元のサイズ・透明度になりながらズームイン・アップする */
 .scroll-fade.is-show {
   opacity: 1;
-  transform: translateY(0);
+  transform: translateY(0) scale(1); /* 通常のサイズ・位置に戻る（ズームイン） */
 }
 
 
