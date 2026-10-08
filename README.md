@@ -145,7 +145,7 @@ p.note { display: none; }
   z-index: 9999; /* 最前面に表示 */
   opacity: 1;
   visibility: visible;
-  transition: opacity 0.8s ease, visibility 0.8s ease; /* 0.8秒かけてふわっと消える */
+  transition: opacity 1.0s ease, visibility 1.0s ease; /* 1.0秒かけてふわっと消える */
   padding: 20px;
   box-sizing: border-box;
 }
