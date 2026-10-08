@@ -188,7 +188,7 @@ p.note { display: none; }
 /* --- スクロールでズームインしながら浮き出るアニメーション --- */
 .scroll-fade {
   opacity: 0;
-  transform: translateY(40px) scale(0.95); /* 最初は少し下にいて、サイズも少し縮小（0.95倍）しておく */
+  transform: translateY(40px) scale(0.85); /* 最初は少し下にいて、サイズも少し縮小（0.85倍）しておく */
   transition: opacity 1.2s cubic-bezier(0.16, 1, 0.3, 1), transform 1.2s cubic-bezier(0.16, 1, 0.3, 1);
   will-change: opacity, transform;
 }
