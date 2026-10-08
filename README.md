@@ -256,6 +256,10 @@ p.note { display: none; }
 <div class="media-container">
 
 <h2><span class="yellow">2026Oct07、宇都宮4号線沿いのスーパー銭湯「ゆ」で肩こりをほぐします</span></h2>
+<div class="loader-logo fadeDown">
+				<a href="20261008_00001.jpeg" target="_blank"><img src="20261008_00001.jpeg" alt="サンプル画像" class="responsive-media"></a>
+			</div>
+
 <a href="20261008_00001.jpeg" target="_blank"><img src="20261008_00001.jpeg" alt="サンプル画像" class="responsive-media"></a>
 
 <h2><span class="yellow">水曜平日のお昼は空いてます</span></h2>
