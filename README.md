@@ -504,20 +504,15 @@ https://youtube.com/shorts/1MxKGMEFFR4?feature=share<br>
 <script src="https://torokoid.github.io/shiba/jquery.goup.min.js"></script>
 <script src="https://torokoid.github.io/shiba/my.js"></script>
 
-
+<!-- ▼ ここをクリーンなコードに修正します ▼ -->
 <script>
-    window.addEventListener('load', function() {
-      const splash = document.querySelector('#splash');
-      setTimeout(function() {
-        splash.classList.add('loaded');
-      }, 500);
-    });
-  </script>
+window.addEventListener('load', function() {
+  const splash = document.querySelector('#splash');
+  setTimeout(function() {
+    splash.classList.add('loaded');
+  }, 500);
+});
+</script>
 
-
-
-
-
-    </body>
-    
+</body>
 </html>
